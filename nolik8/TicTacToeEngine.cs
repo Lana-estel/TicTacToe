@@ -67,22 +67,7 @@ namespace nolik8
                     /////занять центр
                     else if (ArrayOfValues[4] == 0)
                         Arr[0] = 4;
-                    ////если центр занят - угловую клетку
-                    //else if ((ArrayOfValues[4] == -1) && (ArrayOfValues[0] != 1)
-                    //                              && (ArrayOfValues[1] != 1)
-                    //                              && (ArrayOfValues[2] != 1)
-                    //                              && (ArrayOfValues[3] != 1)
-                    //                              && (ArrayOfValues[5] != 1)
-                    //                              && (ArrayOfValues[6] != 1)
-                    //                              && (ArrayOfValues[7] != 1)
-                    //                              && (ArrayOfValues[8] != 1))
-                    //{
-                    //    Arr[0] = 0;
-                    //    Arr[1] = 2;
-                    //    Arr[2] = 6;
-                    //    Arr[3] = 8;
-
-                    //}
+                   
                     ///вилки
                     ///помешать ноликам
                     else if ((sum == -1) && (ArrayOfValues[4] == -1) && ((i == 7) || (i == 6)))

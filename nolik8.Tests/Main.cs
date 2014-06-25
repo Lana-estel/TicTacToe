@@ -125,7 +125,7 @@ namespace nolik8.Tests
                 "0X "
                 );
             TestGetBestMove(
-                2 ,
+                8 ,
                 "X0 " +
                 "0X " +
                 "X0 "
